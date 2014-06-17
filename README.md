@@ -19,9 +19,9 @@ http://192.168.33.11:3212/
 
 ```tail -f /etc/service/nerve/log/main/current```
 
-and stopping / starting the apache web service
+and stopping / starting the mysql or the memcache service
 
-```apachectl stop```
+```service mysql stop``` or ```service memcache start``` etc
 
 Followed by a new
 
