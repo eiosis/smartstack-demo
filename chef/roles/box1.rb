@@ -3,5 +3,5 @@ default_attributes(
 )
 
 run_list(
-  'serf', 'ruby','demo', 'smartstack::nerve'
+  'apt', 'serf', 'ruby','demo', 'smartstack::nerve'
 )
